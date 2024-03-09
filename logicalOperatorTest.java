@@ -1,16 +1,15 @@
-public class logicalOperatorTest
-{
+public class logicalOperatorTest {
     public static void main(String[] args) {
         boolean a = true;
         boolean b = false;
         System.out.println("a && b = " + (a&&b));
-      System.out.println("a && a = " + (a&&a));
+        System.out.println("a && a = " + (a&&a));
         System.out.println("a || b = " + (a||b));
-      System.out.println("a || a = " + (a||b);
-      System.out.println("!(a && b) = " + !(a && b));
+        System.out.println("a || a = " + (a||a));
         System.out.println("!(a && b) = " + !(a && b));
     }
 }
+
 
 /*
 This is a simple Java program that demonstrates the use of logical operators. Here's what it does:
@@ -25,7 +24,9 @@ So, the output of this program would be:
 
 ```
 a && b = false
+a && a = true
 a || b = true
+a || a = true
 !(a && b) = true
 ```
 
