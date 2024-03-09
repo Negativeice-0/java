@@ -1,0 +1,43 @@
+Certainly! Let's swap the values of the variables **a** and **b** without introducing any new variables. Here are a few methods to achieve this:
+
+1. **Using Addition and Subtraction**:
+   - We can add **a** and **b** to get a new value for **a**, then subtract the original **b** from this sum to get the new value for **b**.
+   - Here's the code snippet:
+     ```cpp
+     int a = 5, b = 8;
+     a = a + b;
+     b = a - b;
+     a = a - b;
+     ```
+   - After swapping, **a** will be 8, and **b** will be 5.
+
+2. **Using Bitwise XOR (Exclusive OR)**:
+   - The bitwise XOR operator can be used to swap two variables. It returns a number with all bits set to 1 wherever the bits of **a** and **b** differ.
+   - Here's the code snippet:
+     ```cpp
+     int a = 5, b = 8;
+     a = a ^ b;
+     b = a ^ b;
+     a = a ^ b;
+     ```
+   - After swapping, **a** will be 8, and **b** will be 5.
+
+3. **Using Multiplication and Division** (Note: Be cautious with this method):
+   - Multiply **a** and **b** to get a new value for **a**, then divide the original **a** by the new **b** to get the new value for **b**.
+   - Here's the code snippet:
+     ```cpp
+     int a = 5, b = 8;
+     a = a * b;
+     b = a / b;
+     a = a / b;
+     ```
+   - After swapping, **a** will be 8, and **b** will be 5.
+
+Remember that these methods work well for integers, but there are some limitations and potential issues (such as overflow) with certain values. Choose the method that best suits your needs! 🚀
+
+Source: Conversation with Bing, 3/9/2024
+(1) How to swap two numbers without using a temporary variable?. https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/.
+(2) Java Program to Swapping Two Numbers without Using a ... - W3Schools. https://www.w3schools.in/java/examples/swapping-two-numbers-without-using-a-temporary-variable.
+(3) Swap two integers without using a third variable - Stack Overflow. https://stackoverflow.com/questions/10350118/swap-two-integers-without-using-a-third-variable.
+(4) C Program to Swap Two Numbers. https://www.programiz.com/c-programming/examples/swapping.
+(5) Swap two numbers without using another variable - Stack Overflow. https://stackoverflow.com/questions/28207146/swap-two-numbers-without-using-another-variable.
