@@ -1,0 +1,20 @@
+If you can't see the Dynamic Web Project option in Eclipse, it's likely that you're missing the necessary plugins for Java EE development. Here's how you can add them:
+
+1. Open Eclipse and go to `Help -> Install New Software`.
+2. Click the down arrow available in the `Work with` field and select the link corresponding to your version of Eclipse (for example, for Eclipse Kepler, the link would be `http://download.eclipse.org/releases/kepler`⁴).
+3. Now select the checkbox with the name `Web, XML, Java EE and OSGi Enterprise Development`¹.
+4. Click `Next -> Next -> Accept` the license requirement -> `Finish`.
+5. Wait for some time till the plugins get downloaded.
+6. Restart Eclipse and now go to `File -> New -> Other -> Web`, and you should see the `Dynamic Web Project` option¹.
+
+Please note that the URL in the `Work with` field depends on your version of Eclipse. For example, for Eclipse Oxygen, the URL would be `http://download.eclipse.org/releases/oxygen/`¹.
+
+If you're still facing issues, you might want to consider reinstalling Eclipse and choosing the "Eclipse IDE for Java EE Developers" version, which contains everything you need to create a Dynamic Web Project¹.
+
+Source: Conversation with Bing, 3/11/2024
+(1) undefined. http://download.eclipse.org/releases/kepler.
+(2) Dynamic Web Project option missing in Eclipse - Stack Overflow. https://stackoverflow.com/questions/4587734/dynamic-web-project-option-missing-in-eclipse.
+(3) Creating a dynamic Web project - Eclipse Foundation. https://help.eclipse.org/latest/topic/org.eclipse.wst.webtools.doc.user/topics/twcreprj.html.
+(4) How to import Java Web Project in Eclipse - Websparrow. https://websparrow.org/misc/how-to-import-java-web-project-in-eclipse.
+(5) undefined. http://download.eclipse.org/releases/oxygen/.
+(6) undefined. http://download.eclipse.org/releases/photon/.
