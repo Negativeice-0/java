@@ -1,7 +1,9 @@
-If you can't see the Dynamic Web Project option in Eclipse, it's likely that you're missing the necessary plugins for Java EE development. Here's how you can add them:
+If you can't see the Dynamic Web Project option in Eclipse, it's likely that you're missing the necessary plugins for Java EE development.
+Here's how you can add them:
 
 1. Open Eclipse and go to `Help -> Install New Software`.
-2. Click the down arrow available in the `Work with` field and select the link corresponding to your version of Eclipse (for example, for Eclipse Kepler, the link would be `http://download.eclipse.org/releases/kepler`⁴).
+2. Click the down arrow available in the `Work with` field and select the link corresponding to your version of Eclipse 
+(for example, for Eclipse Kepler, the link would be `http://download.eclipse.org/releases/kepler`⁴).
 3. Now select the checkbox with the name `Web, XML, Java EE and OSGi Enterprise Development`¹.
 4. Click `Next -> Next -> Accept` the license requirement -> `Finish`.
 5. Wait for some time till the plugins get downloaded.
