@@ -1,13 +1,8 @@
-package business.Classing;
+package com.example;
 
 public class Main {
-
-    public static void main(String[] args) {
-        Business myBusiness = new Business();
-        myBusiness.setYearsOfOperation(2);
-        myBusiness.setNumOfEmployees(5);
-        myBusiness.setRevenue(250000);
-
-        System.out.println(myBusiness.getRevenue());
-    }
-}
+	  public static void main(String[] args) {
+	    MountainBike mb = new MountainBike(3, 100, 2, 1);
+	    mb.printStates();
+	  }
+	}
